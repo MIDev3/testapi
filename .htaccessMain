@@ -1,0 +1,4 @@
+Options -Indexes -MultiViews
+RewriteEngine On
+
+RewriteRule ^users/([a-zA-Z0-9-/]+)$ users.php?c=$1 [L]
